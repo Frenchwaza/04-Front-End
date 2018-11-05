@@ -6,16 +6,16 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-f294592c.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <title></title>
+    <link href="../stylesheets/application-f294592c.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" alt="logo" />
+    <img src="../images/logo-acc9c0ec.png" alt="logo" />
   </a>
 
   <!-- Right Navigation -->
@@ -52,26 +52,51 @@
   </div>
 </div>
 
-    <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fas fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/ssaunier" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle" alt="Ssaunier" />
-</a>          <h2>Sébastien Saunier</h2>
-          <p>
-<a href="https://github.com/ssaunier" target="_blank">              <i class="fab fa-github"></i> ssaunier
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/Papillard" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/Papillard" class="img-circle" alt="Papillard" />
-</a>          <h2>Boris Paillard</h2>
-          <p>
-<a href="https://github.com/Papillard" target="_blank">              <i class="fab fa-github"></i> Papillard
-</a>          </p>
-        </li>
-    </ul>
+    
+<!-- Access data.flats with owner's name as key -->
+<div class="flat-banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%,rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/london');">
+</div>
+
+<!-- Inject flat data in template -->
+<div class="flat-container">
+
+    <div class= "host-info">
+      <img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard" class="small-img img-circle" alt="Monsieurpaillard" />
+      <div class="host-desc">
+      <p>Romain's home</p>
+      <h1>Nice flat in Piccadilly</h1>
+      <p>London, UK</p>
+      </div>
   </div>
+    <div class="form">
+      <form action="#">
+        <h4>Book this flat</h4>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="checkin" id="checkin">
+              </div>
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="checkout">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <select name="" id="guests" class="form-control">
+              <option value="1">1 guest</option>
+              <option value="2">2 guests</option>
+              <option value="3">3 guests</option>
+            </select>
+          </div>
+          <input type="submit" class="btn btn-danger" value="Book it" style="width: 100%">
+        </form>
+    </div>
+  </div>
+
+
+
+
+ </div>
 </div>
 
     
