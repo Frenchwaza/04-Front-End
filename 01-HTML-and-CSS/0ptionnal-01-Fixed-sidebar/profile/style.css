@@ -1,0 +1,117 @@
+div {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px #ffa96a;
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+body {
+  background-color: #eeeeee;
+  line-height: normal;
+}
+
+h1, h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #ffad5a;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2{
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #0b409c;
+}
+
+p {
+  font-size: 14px;
+  color: #0b409c;
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.8;
+}
+
+td {
+  font-weight: bolder;
+  color: navy;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a{
+  color: navy;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+a:hover {
+  color: #503bff;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.container {
+  margin: 30px;
+  margin: 30px;
+  text-align: center;
+}
+
+.favorites-table {
+  margin: 35px auto;
+  width: 70%;
+}
+
+.img-fav {
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 8%
+  }
+
+#img-portrait {
+  max-height: 250px;
+  max-width: 250px;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 3px 3px 1px 0px lightgrey;
+}
+
+#logo {
+  width: 15px;
+  height: 15px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+

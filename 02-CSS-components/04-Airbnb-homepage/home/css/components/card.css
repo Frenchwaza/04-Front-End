@@ -1,0 +1,64 @@
+/* Your card CSS code here */
+.card-body {
+  height: 180px;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.city-image {
+  height: 180px;
+  width: 300px;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background- position: center;
+
+
+}
+
+.card-body h3,h4,p{
+  color: white;
+  width
+}
+
+.card-category {
+  position: absolute;
+  top: 5px;
+  padding: 10px;
+}
+
+.card-avatar {
+  position:absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.city-image {
+
+}
+
+.card-desc {
+  position: absolute;
+  bottom: 5px;
+  padding: 10px;
+}
+
+.card-footer{
+  justify-content: space-between;
+  display: flex;
+  padding-right: 10px;
+}
+
+.card-date p {
+  color: #004A65;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.card-icons {
+  color: #004A65;
+  text-align: right;
+}
+
+

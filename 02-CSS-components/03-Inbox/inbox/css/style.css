@@ -1,0 +1,26 @@
+@import url("components/avatar.css");
+@import url("components/message.css");
+@import url("components/tabs.css");
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: 'Varela Round', sans-serif;
+  background-color: white;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.inbox {
+  border: 0.1px solid rgb(210,210,210); ;
+}
+
+p {
+  color: rgba(0,0,0,0.4);
+  font-size: 13px;
+}
